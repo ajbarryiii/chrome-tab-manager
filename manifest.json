@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Duplicate Tab Checker",
+    "version": "1.1",
+    "description": "Notifies you of duplicate tabs and allows closing older ones.",
+    "permissions": ["tabs", "notifications"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Duplicate Tab Checker"
+    }
+  }
